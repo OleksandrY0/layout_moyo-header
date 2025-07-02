@@ -1,23 +1,21 @@
-html {
+html * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-body {
+body * {
   font-family: Roboto, sans-serif;
   font-size: 12px;
   font-weight: 500;
 }
 
 .header {
-  max-width: 100vw;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0;
-  padding: 0 50px;
   align-items: center;
+  padding: 0 50px;
 }
 
 .logo__link {
